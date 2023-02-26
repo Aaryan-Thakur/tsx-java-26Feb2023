@@ -18,4 +18,14 @@ Webhook Demo
 9. Now select/edit the event you would like to log and add/save
 10.You are done, now make changes to the commit and the events you have selected will be logged in the logs/eventlogger.log file
 
+Commit List Demo
+Follow the same steps from 1 to 3 from webhook instructoins
+4. You can change the repo you want to retrive the commit list from my visiting \src\main\java\com\example\techstax\data\repodata.java 
+5. Make appropriate changes and save
+6. run the command "./gradlew bootRun" OR "gradlew bootRun" This will execute the project and the website will be up and running(visit localhost:8080) to verify
+7. now just visit localhost:8080/commit and the list of commits will be logged to logs/commitlist.log
 
+
+NOTE-
+1.8080 is the port number which can vary make sure you use port number you want appropirately 
+2.All errors will be logged to log/erros.log
