@@ -20,10 +20,10 @@ Webhook Demo
 
 Commit List Demo
 Follow the same steps from 1 to 3 from webhook instructoins
-4. You can change the repo you want to retrive the commit list from my visiting \src\main\java\com\example\techstax\data\repodata.java 
-5. Make appropriate changes and save
-6. run the command "./gradlew bootRun" OR "gradlew bootRun" This will execute the project and the website will be up and running(visit localhost:8080) to verify
-7. now just visit localhost:8080/commit and the list of commits will be logged to logs/commitlist.log
+1. You can change the repo you want to retrive the commit list from my visiting \src\main\java\com\example\techstax\data\repodata.java 
+2. Make appropriate changes and save
+3. run the command "./gradlew bootRun" OR "gradlew bootRun" This will execute the project and the website will be up and running(visit localhost:8080) to verify
+4. now just visit localhost:8080/commit and the list of commits will be logged to logs/commitlist.log
 
 
 NOTE-
