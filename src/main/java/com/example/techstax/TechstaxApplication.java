@@ -28,7 +28,7 @@ public class TechstaxApplication {
 	//For main page
 	@RequestMapping("/")
     String home(){
-        return "POST request at URL/webhook to log event details <br> Visit URL/commit to retrive list of commits from a repo <br>  Repo can me changed from com.example.techstax.data.repodata.java";
+        return "POST request at URL/webhook to log event details <br> Visit URL/commit to retrive list of commits from a repo <br>  Repo can be changed from com.example.techstax.data.repodata.java";
     }
 
 	//Visiting "URL/commit" will execute the code below (retriveing commit list)
