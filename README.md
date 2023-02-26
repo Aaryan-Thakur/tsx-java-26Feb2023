@@ -1,7 +1,5 @@
 ﻿# tsx-java-26Feb2023
-This is a project made for as an assignment for TechStax internship 
-It enables the tracking of events of a particular github repository by setting up a webhook endpoint whitc the github repo can send event inforamtion to
-It also has a feature to retrive the list of all commits of a repo
+As an assignment assigned by TechStax internship, I have created a tool that allows for tracking events of a specific GitHub repository. The tool sets up a webhook endpoint that can receive event information from the GitHub repository. Additionally, the tool includes a feature for retrieving a list of all commits associated with the repository.
 -----------------------------------------------------------------------------
 Installed prerequsites-
 
@@ -13,6 +11,10 @@ Clone this repo using git clone (or just download)
 1. cd into the cloned folder using an IDE or CMD
 2. run the command "./gradlew clean build" OR "gradlew clean build" depending upon the interface you are using
 3. Let the above process finish
+![image](https://user-images.githubusercontent.com/49814390/221400924-2972ec44-8980-432b-a983-f044f89585ce.png)<br>
+(you can also try running "./gradlew clean build --refresh-dependencies" if the above one doesn't work)
+
+
 4. run the command "./gradlew bootRun" OR "gradlew bootRun" This will execute the project and the website will be up and running(visit localhost:8080) to verify
 ![image](https://user-images.githubusercontent.com/49814390/221399185-ce5647ec-fd1b-438e-8465-7678d14e14c9.png)
 ![image](https://user-images.githubusercontent.com/49814390/221399193-9912d837-3208-452a-8f0b-8b51fc5cdae4.png)
