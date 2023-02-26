@@ -32,6 +32,12 @@
         </filter>
     </appender>
 
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
     <logger name="com.example.techstax.Reformatter" level="INFO">
         <appender-ref ref="event"/>
     </logger>
@@ -42,6 +48,8 @@
 
     <logger name="ROOT" level="ERROR">
         <appender-ref ref="error" />
+        <appender-ref ref="console" />
+
     </logger>
     
 </configuration>
