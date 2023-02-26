@@ -17,15 +17,14 @@ Clone this repo using git clone (or just download)
 
 4. run the command "./gradlew bootRun" OR "gradlew bootRun" This will execute the project and the website will be up and running(visit localhost:8080) to verify
 ![image](https://user-images.githubusercontent.com/49814390/221399185-ce5647ec-fd1b-438e-8465-7678d14e14c9.png)
-![image](https://user-images.githubusercontent.com/49814390/221399193-9912d837-3208-452a-8f0b-8b51fc5cdae4.png)
-
+![image](https://user-images.githubusercontent.com/49814390/221401324-8c91f786-8ec5-411a-98d7-a920feed3a99.png)
 
 5. open ngrok.exe, use command "ngrok.exe http 8080" <br>
 ![image](https://user-images.githubusercontent.com/49814390/221399202-dc22c709-c2fd-4fea-8f09-2dae5e2c6b96.png)
 
 6. now copy the link in front of "forwarding" in my case it is "https://f30c-2409-40c0-101f-99fc-b419-6b82-b9f0-e4eb.in.ngrok.io" Visit YOUR link to make sure it is working
 ![image](https://user-images.githubusercontent.com/49814390/221399213-e5a7086b-e5f9-4d30-a8be-b8edbb7655f1.png)
-![image](https://user-images.githubusercontent.com/49814390/221399257-c4c46f24-be0b-4868-ac48-e4196fd02c81.png)
+![image](https://user-images.githubusercontent.com/49814390/221401433-d65ac2db-19ff-403d-a2c7-11fa1f0308bc.png)
 
 
 7. Now go to the repo which you want to track a click on settings-> webhook->add/edit a webhook
