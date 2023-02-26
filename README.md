@@ -64,6 +64,6 @@ Follow the same steps from 1 to 3 from webhook instructoins
 
 NOTE-
 
-1.8080 is the port number which can vary make sure you use port number you want appropirately 
+1.8080 is the port number which can vary make sure you use port number you want appropriately 
 
 2.All errors will be logged to log/erros.log
